@@ -1,0 +1,21 @@
+.category_card {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.category_card img {
+    width: 318px;
+    height: 370px;
+    object-fit: cover;
+}
+
+.category_card p {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+    
+}

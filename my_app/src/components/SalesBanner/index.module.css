@@ -1,0 +1,70 @@
+.sales_banner {
+    background-color: rgba(161, 226, 235, 1);
+    margin: auto;
+    width: 1440px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    color: #FFFFFF;   
+    padding-left: 50px;
+}
+
+.sale_block {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;  
+}
+
+.sale_block h2 {
+   width: 540px;
+   height: 104px;
+   font-size: 80px;
+
+}
+
+.sale_block p {
+    font-size: 63px;
+}
+
+.sale_btn {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.sale_btn button {
+    width: 174px;
+    padding: 25px 50px;
+    border-radius: 13px;
+    background: #FFFFFF;
+    border: 1px solid transparent;
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.sale_btn :nth-child(1):hover button {
+    background-color: rgba(161, 226, 235, 1);
+    border: 2px solid #FFFFFF;
+}
+
+.sale_btn :nth-child(2) {
+    width: 240px;
+    background-color: rgba(161, 226, 235, 1);
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+} 
+
+.sale_btn :nth-child(2):hover {
+    background-color: #FFFFFF;
+    color: rgba(161, 226, 235, 1);
+    border: 2px solid transparent;
+}
+
+.sales_banner img {
+    width: 720px;
+    height: 100%;
+    object-fit: cover;   
+}
+

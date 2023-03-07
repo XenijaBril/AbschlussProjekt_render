@@ -1,0 +1,68 @@
+.cart {
+    display: flex;
+    justify-content: space-between;
+    color: #000000;
+}
+
+.order_details_form {
+    width: 496px;
+    height: 393px;
+    border: 2px solid #000000;
+    border-radius: 21px;
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    padding: 25px;
+}
+.title_form {
+    font-weight: 600;
+    font-size: 28px;
+}
+.total {
+    display: flex;
+    flex-direction: row;
+    gap: 280px;
+    margin: 47px 0;
+}
+
+.total :nth-child(1) {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.total :nth-child(2) {
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.inp_btn {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.inp_btn input {
+    width: 446px;
+    height: 73px;
+    font-weight: 500;
+    font-size: 18px;
+    border: 2px solid 
+    rgba(146, 146, 146, 1);
+    border-radius: 20px;
+    text-align: left;
+    padding: 0 25px;
+}
+
+.inp_btn button {
+    background: #339933;
+    font-weight: 700;
+    font-size: 28px;
+    color: #FFFFFF;
+    border: 1px solid transparent;
+    border-radius: 17px;
+    width: 446px;
+    height: 76px; 
+    text-align: center;
+    cursor: pointer;
+}
+

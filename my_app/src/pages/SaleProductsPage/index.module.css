@@ -1,0 +1,69 @@
+.title_sale {
+    font-weight: 700;
+    font-size: 50px; 
+    margin-left: 33px;
+}
+
+.sort_block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 200px;
+    margin-left: 33px;
+    margin-top: 80px;
+    
+}
+
+.sort_price {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.sort_block p {
+    font-weight: 600;
+    font-size: 20px;    
+}
+
+.sort_price input {
+    width: 103px;
+    height: 42px;
+    border: 1px solid #000000;
+    border-radius: 7px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ACACAC;
+    text-align: start;
+    padding: 5px;
+}
+.sort_price button {
+    width: 77px;
+    height: 38px;
+    background: #339933;
+    border: 2px solid #339933;
+    border-radius: 5px;
+    color: #000000;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
+
+.sort_value {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.sort_value select {
+    width: 219px;
+    height: 42px;
+    border: 1px solid #000000;
+    border-radius: 7px;
+    font-weight: 500;
+    font-size: 17px;
+}
+

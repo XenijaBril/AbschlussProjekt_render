@@ -1,0 +1,6 @@
+.sales_items {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    /* margin: 20px 0; */
+}

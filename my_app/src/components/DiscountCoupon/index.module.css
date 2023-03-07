@@ -1,0 +1,74 @@
+.disc_coupon {
+    height: 472px;
+    background-color: rgb(20, 126, 20);
+    display: flex;
+    justify-content: space-between;
+}
+
+.disc_coupon img {
+    width: 472px;
+    height: 472px;
+    padding: 27px 10px 27px 91px;
+}
+
+.disc_coupon_info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.disc_coupon_text {
+   
+    font-weight: 700;
+    line-height: 120%;
+    color: #FFFFFF; 
+    display: flex;
+    flex-direction: column;
+    padding: 25px 0 ;
+}
+
+
+.disc_coupon_procent_sale {
+    font-size: 90px;
+    padding: 90px 20px 20px 20px;
+}
+
+.disc_coupon_about_sale {
+    font-size: 50px; 
+    padding: 30px 20px;
+
+}
+
+.info_form_block {
+    display: flex;
+    flex-direction: column; 
+    gap: 20px;
+}
+
+.disc_coupon input {
+    width: 473px;
+    height: 75px;
+    background-color: #FFFFFF;
+    border: 2.39494px solid #FFFFFF;
+    border-radius: 25.1468px;
+    font-size: 20px;
+    padding: 0 0 0 30px;
+}
+
+.disc_coupon button {
+    background: rgb(20, 126, 20);
+    color: #FFFFFF;
+    width: 473px;
+    height: 75px;
+    border: 2.39494px solid #FFFFFF;
+    border-radius: 25.1468px;
+    font-weight: 650;
+    font-size: 28.7392px;
+    cursor: pointer;
+
+}
+
+
+
+
+

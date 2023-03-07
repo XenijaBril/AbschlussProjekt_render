@@ -1,0 +1,58 @@
+.footer_block {
+    width: 1440px;
+    margin: 120px auto;
+    padding: 33px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.contacts_block {
+    width: 800px;
+    height: 300px;
+    margin: auto 0;
+}
+.contacts_block h2 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.contacts_block p {
+    width: 649px;
+    height: 91px;
+    font-size: 70px;  
+    font-weight: 600;
+    margin: 15px 0;
+}
+
+.icon_block {
+    width: 40%;
+    font-size: 55px;
+    color:rgba(51, 153, 51, 1);
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+    cursor: pointer;
+}
+
+.address_block {
+    width: auto;
+}
+
+.address_block h2 {
+    font-weight: 700;
+    font-size: 40px;
+    
+}
+
+.address_block h3 {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.address_block p {
+    font-weight: 500;
+    font-size: 30px;
+    margin: 25px 0;
+    /* text-decoration: underline;  */
+}
