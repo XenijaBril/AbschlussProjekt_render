@@ -17,7 +17,7 @@ export default function ProductCard({id, title, image, price, discont_price}) {
   return (
     <div className={s.product_card}>
       <div>
-         <Link to={product_url}><img src={`http://localhost:3333${image}`} alt={title} /></Link>
+         <Link to={product_url}><img src={`https://project-backend1-jw2u.onrender.com${image}`} alt={title} /></Link>
          <button onClick={add_to_cart}>Add to cart</button>
       </div>
       <div className={s.price}>

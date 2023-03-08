@@ -14,7 +14,7 @@ export default function DiscountCoupon() {
         </div>
 
         <form className={s.info_form_block}>
-            <input type="nummber" placeholder='+49 999999999' />
+            <input type="nummber" placeholder='+49 00000000000' />
             <button>Get a discount</button>
         </form>
       </div>

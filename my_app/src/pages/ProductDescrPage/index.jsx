@@ -28,7 +28,7 @@ export default function ProductDescrPage() {
     <div className={s.product_descr}>
       <div> 
         <p className={s.title}>{title}</p>
-        <img src={`http://localhost:3333/${image}`} alt="" />
+        <img src={`https://project-backend1-jw2u.onrender.com${image}`} alt={title} />
       </div>
       <div className={s.price_descr}>
         <div className={s.price}>

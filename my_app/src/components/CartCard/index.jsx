@@ -13,7 +13,7 @@ export default function CartCard({id, title, image, price, discont_price, count}
 
   return (
     <div className={s.cart}>
-        <img src={`http://localhost:3333${image}`} alt={title}/>
+        <img src={`https://project-backend1-jw2u.onrender.com${image}`} alt={title}/>
         <div className={s.title_count}>
             <p>{title}</p> 
             <div className={s.count}>
